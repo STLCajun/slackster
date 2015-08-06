@@ -1,6 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-var slackster = require('./slacker');
+var slackster = require('./slackster');
  
 var app = express();
 var port = process.env.PORT || 3000;
